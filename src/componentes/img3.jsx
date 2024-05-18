@@ -1,7 +1,7 @@
 import React from 'react'
 import img33 from '../images/img3.jpg'
 
-const img3 = () => {
+const Img3 = () => {
     return (
         <div>
             <img src={img33} alt="juego" />
@@ -9,4 +9,4 @@ const img3 = () => {
     )
 }
 
-export default img3
+export default Img3
