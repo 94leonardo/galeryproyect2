@@ -17,21 +17,27 @@ import Navegation from './componentes/Navegation';
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path='/img1' Component={Img1} />
-        <Route path='/img2' Component={Img2} />
-        <Route path='/img3' Component={Img3} />
-        <Route path='/img4' Component={Img4} />
-        <Route path='/img5' Component={Img5} />
-        <Route path='/img6' Component={Img6} />
-        <Route path='/img7' Component={Img7} />
-        <Route path='/img8' Component={Img8} />
-        <Route path='/img9' Component={Img9} />
-        <Route path='/img10' Component={Img10} />
-      </Routes>
-      <Navegation />
-    </Router>
+    <div
+      class="container"
+    >
+      <Router>
+        <Routes>
+
+          <Route path='/img1' Component={Img1} />
+          <Route path='/img2' Component={Img2} />
+          <Route path='/img3' Component={Img3} />
+          <Route path='/img4' Component={Img4} />
+          <Route path='/img5' Component={Img5} />
+          <Route path='/img6' Component={Img6} />
+          <Route path='/img7' Component={Img7} />
+          <Route path='/img8' Component={Img8} />
+          <Route path='/img9' Component={Img9} />
+          <Route path='/img10' Component={Img10} />
+        </Routes>
+        <Navegation />
+      </Router>
+      
+    </div>
 
   );
 }
